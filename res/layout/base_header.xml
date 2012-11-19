@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="42.0dip" 
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/base_header_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+        <ImageButton
+	        android:id="@id/ib_left"
+	        android:layout_width="58.0dip"
+	        android:layout_height="fill_parent"
+	        android:src="@drawable/base_header_btn_back"
+	        android:scaleType="center"
+	        android:background="@drawable/base_header_btn"
+	         />
+        <ImageView
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="#ff002747" />
+
+        <ImageView
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="#ff1a638d" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/tv_title"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:textSize="19.0sp"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:text="顶部标题"
+        android:lines="1"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="#ff1a638d" />
+
+        <ImageView
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="#ff002747" />
+        
+        <ImageButton
+	        android:id="@id/ib_right"
+	        android:layout_width="58.0dip"
+	        android:layout_height="fill_parent"
+	        android:src="@drawable/base_header_btn_back"
+	        android:scaleType="center"
+	        android:background="@drawable/base_header_btn" />
+    </LinearLayout>
+
+    
+
+</LinearLayout>

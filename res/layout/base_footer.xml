@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/base_tab_bg"
+    >
+
+    <TextView
+        android:id="@+id/base_footer_ok"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="19.0sp"
+        android:textColor="#ffffffff"
+        android:background="@drawable/base_header_btn"
+        android:gravity="center"
+        android:lines="1" 
+        android:text="底部按钮"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:layout_width="2.0px"
+        android:layout_height="fill_parent"
+        android:background="@drawable/base_footer_diviver" />
+
+    <TextView
+        android:id="@+id/base_footer_cancel"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="19.0sp"
+        android:textColor="#ffffffff"
+        android:background="@drawable/base_header_btn"
+        android:gravity="center"
+        android:lines="1" 
+        android:text="底部按钮" 
+        android:clickable="true"
+        />
+
+</LinearLayout>
