@@ -17,7 +17,7 @@
         android:paddingRight="15.0dip"
         android:singleLine="true"
         android:selectAllOnFocus="true"
-        android:drawableRight="@drawable/base_list_item_arrow"
+        android:drawableRight="@drawable/base_list_item_arrow_icon"
         android:text="TEXT" 
         />
 </FrameLayout>
