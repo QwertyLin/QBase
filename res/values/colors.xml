@@ -7,7 +7,7 @@
     
     
     <color name="base_blue_light">#33B5E5</color>
-    <color name="base_blue_dark">#0099CC</color>
+    <color name="base_blue_dark">#0099CC</color><!-- 153 204 -->
     <color name="base_green_light">#99CC00</color>
     <color name="base_green_dark">#669900</color>
     <color name="base_red_light">#FF4444</color>
