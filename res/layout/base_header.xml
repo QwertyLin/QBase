@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="@dimen/base_header_height" 
     android:gravity="center_vertical"
-    android:background="@color/base_blue_dark"
+    android:background="@color/base_header_bg"
     >
 
     <ImageButton
@@ -19,7 +19,7 @@
         android:id="@+id/base_header_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/base_text_medium"
+        android:textSize="@dimen/base_header_text_size"
         android:textColor="@color/base_white"
         android:layout_centerInParent="true"
         />

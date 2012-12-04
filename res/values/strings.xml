@@ -1,8 +1,12 @@
 <resources>
 
     <string name="app_name">QBase</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">QBase</string>
 
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    
+    <string name="about">关于</string>
+    <string name="about_more">更多操作</string>
+    <string name="about_share">分享应用</string>
+    <string name="about_market">更新升级</string>
 </resources>

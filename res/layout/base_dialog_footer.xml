@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/base_dialog_footer_ok"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/base_header_height"
+        android:layout_weight="1"
+        android:background="@drawable/base_btn_bg_gray"
+        android:text="@string/dialog_ok" />
+
+    <Button
+        android:id="@+id/base_dialog_footer_cancel"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/base_header_height"
+        android:layout_marginLeft="1dip"
+        android:layout_weight="1"
+        android:background="@drawable/base_btn_bg_gray"
+        android:text="@string/dialog_cancel" />
+
+</LinearLayout>

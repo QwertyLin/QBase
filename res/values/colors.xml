@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
+    <color name="base_bg">#FFFFFFFF</color><!-- base_white -->
+    <color name="base_header_bg">#FF0099CC</color><!-- base_blue_dark -->
+    <color name="base_btn_bg_pressed">#FF33B5E5</color>
+    
+    
     <color name="base_blue_light">#33B5E5</color>
     <color name="base_blue_dark">#0099CC</color>
     <color name="base_green_light">#99CC00</color>

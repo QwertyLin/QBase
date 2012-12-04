@@ -20,6 +20,10 @@
         <item name="android:background">@drawable/base_checkbox</item>
     </style>
     
+    <style name="QEditText">
+        <item name="android:background">@drawable/base_edittext</item>
+    </style>
+    
     <style name="QLineGray">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">0.5dip</item>
