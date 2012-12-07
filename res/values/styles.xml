@@ -46,11 +46,39 @@
         <item name="android:background">@color/base_blue_light</item>
     </style>
     
+    <!-- 关于 -->
+    
+    <style name="QAboutIcon">
+        <item name="android:layout_width">60dip</item>
+        <item name="android:layout_height">60dip</item>
+        <item name="android:layout_marginTop">20dip</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    
+    <style name="QSettingLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:layout_marginTop">20dip</item>
+    </style>
+    
     <style name="QSettingHeader">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/base_blue_light</item>
-        <item name="android:textSize">@dimen/base_text_small</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">5dip</item>
+    </style>
+    
+    <style name="QSettingItem">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/btn_trans_gray</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/base_black</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:paddingLeft">5dip</item>
     </style>
         

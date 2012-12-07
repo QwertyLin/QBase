@@ -3,7 +3,6 @@
     android:id="@id/dialog_frame"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/bg_dialog_new"
     android:orientation="vertical"
     android:padding="3.0dip" 
     android:layout_marginLeft="20dip"
@@ -60,7 +59,6 @@
         android:layout_marginLeft="4.0dip"
         android:layout_marginRight="4.0dip" >
 
-        <include layout="@layout/base_divider" />
     </LinearLayout>
 
     <LinearLayout
