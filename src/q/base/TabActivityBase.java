@@ -26,7 +26,6 @@ public abstract class TabActivityBase extends TabActivity implements OnCheckedCh
 					.setIndicator(String.valueOf(i))
 					.setContent(getIntent(i)));
 		}
-		tabHost.setCurrentTab(0);
 		//
 		LayoutInflater inflater = getLayoutInflater();
 		radioGroup = ((RadioGroup)findViewById(R.id.tabhost_btns_layout));
@@ -40,7 +39,6 @@ public abstract class TabActivityBase extends TabActivity implements OnCheckedCh
 			btn.setLayoutParams(btnLp);
 			radioGroup.addView(btn);
 		}
-		radioGroup.check(0);
 		radioGroup.setOnCheckedChangeListener(this);
 	}
 	
